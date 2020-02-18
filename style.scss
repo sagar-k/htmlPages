@@ -1,0 +1,19 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.dashborad {
+        .filter {
+            flex: 20; 
+            .list-group-item {
+                border: none !important;
+            }
+            
+        }
+        .container {
+            flex: 80;
+            .flex-row {
+                div {
+                    margin-right: 1%;
+                }
+            }
+        }
+}
